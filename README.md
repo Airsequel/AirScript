@@ -31,6 +31,7 @@ Aka can be used as transformers:
     (As seen in Elm and Haskell.)
 - TypeScript shows how runtime type-checking can be very helpful here.
 
+
 ## Syntax
 
 - Everything that starts with `$` (constants, variables, …)
@@ -45,6 +46,8 @@ Aka can be used as transformers:
       true "Good job!"
       false "Try again!"
       ```
+- TODO: Maybe use `Yes`/`No` instead of `True`/`False`
+    `YesNo = Yes | No`
 
 
 ### Types
