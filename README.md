@@ -18,7 +18,6 @@ Aka can be used as transformers:
 - No recursive functions (prevents endless loops)
 - No currying
 - JIT compiled (No overhead of managing both the source and the binary)
-- Default numeric type is `Fraction` and not `Number`
 - List of available files (file content) in frontmatter
     - With support for globbing
 
@@ -43,9 +42,17 @@ Aka can be used as transformers:
 
 ### Types
 
-- Number (`0`, `2`, `3.14`)
-- Text (`"With spaces"`, `'single`)
+- Number
+    - `0`, `2`, …
+    - `3.14`, …
+    - TODO: Maybe `Rational` would be a better default
+- Text
+    - `"With spaces"`
+    - `'single` (Also called atoms)
 - Result (`Result ok = Ok(ok) | Error(Text)`)
+    - No support for custom Error types,
+      as one can use atoms and map them
+      to full error messsages at the end
 - Options (e.g. `Options['north, 'east, 'south, 'west]`)
 
 
