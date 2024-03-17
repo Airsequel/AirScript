@@ -38,6 +38,13 @@ Aka can be used as transformers:
     is provided by the prelude (aka standard library)
 - Syntax sugar for `f(g(h(i(j()))))`
     - Maybe `f@g@h@i@j()`
+- `when … is …`
+    - Syntax sugar for boolean:
+      ```py
+      when x is
+      true "Good job!"
+      false "Try again!"
+      ```
 
 
 ### Types
