@@ -139,6 +139,10 @@ Ok(items & List:map(item ->
 
 Deal-breakers are marked with a ✋.
 
+- [PRQL](https://prql-lang.org/)
+    - Pipelined Relational Query Language
+    - Compiles to SQL
+
 - [Numbat](https://numbat.dev) (Rust)
     - Statically typed
     - For scientific computations
