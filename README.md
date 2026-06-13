@@ -20,6 +20,8 @@ Aka can be used as transformers:
 - JIT compiled (No overhead of managing both the source and the binary)
 - List of available files (file content) in frontmatter
     - With support for globbing
+- Use Zig's auto-formatting behavior:
+  If last comma then format via multiple lines else format as one line
 
 
 ## Observations
