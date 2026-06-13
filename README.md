@@ -154,3 +154,7 @@ Deal-breakers are marked with a ✋.
 - [Roc](https://www.roc-lang.org) (Rust)
     - Statically typed
     - ✋ Side effects
+
+- [CEL](https://cel.dev/)
+  - Common Expression Language
+  - [CEL Interpreter](https://crates.io/crates/cel-interpreter) (Rust)
